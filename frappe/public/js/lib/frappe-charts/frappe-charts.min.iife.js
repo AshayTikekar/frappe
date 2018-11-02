@@ -3864,7 +3864,7 @@ var AxisChart = function (_BaseChart) {
 			if (index >= s.xAxis.labels.length) index = s.xAxis.labels.length - 1;
 			if (index === s.currentIndex) return;
 			s.currentIndex = index;
-			fire(this.>>>>>>> masterparent, "data-select", this.getDataPoint());
+			fire(this.parent, "data-select", this.getDataPoint());
 		}
 
 		// API
